@@ -1,0 +1,21 @@
+.hive__header {
+    /* Connect your favorite tools. */
+
+    position: absolute;
+    width: 585px;
+    height: 77px;
+    left: 71px;
+    top: 259px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 160%;
+    
+    /* identical to box height, or 77px */
+
+    color: #000000;
+
+
+}

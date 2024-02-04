@@ -1,0 +1,56 @@
+.empty__finish__button {
+    /* Buttons */
+ 
+ 
+    position: absolute;
+    width: 140px;
+    height: 56px;
+    left: 207px;
+    top: 848px;
+
+ }
+ 
+
+ 
+ .finish__button__text button {
+    /* Button/Primary/With Icon */
+ 
+ 
+    box-sizing: border-box;
+ 
+ 
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    gap: 10px;
+    border: 0;
+ 
+ 
+    /* hive black */
+    background: #1A1225;
+    border-radius: 10px;
+   
+ 
+    /* Frame 1 */
+ 
+ 
+    width: 112px;
+    height: 56px;
+ 
+ 
+    /* PJ/Bold/18px */
+    font-family: 'Plus Jakarta Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+   
+    /* hive black */
+    color: #FFFFFF;
+ 
+ 
+ }
+ 
+ 

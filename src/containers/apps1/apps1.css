@@ -1,0 +1,193 @@
+.row__one {
+    /* Frame 11 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+
+    position: absolute;
+    width: 1218.76px;
+    height: 158.22px;
+    left: 71px;
+    top: 384px;
+}
+
+.row__two {
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 1218.76px;
+    height: 158.22px;
+    left: 71px;
+    top: 579px;
+
+}
+
+.outer__box {
+    /* Frame 21 */
+
+    box-sizing: border-box;
+
+    width: 274.69px;
+    height: 158.22px;
+
+    background: #FEF9F8;
+    border: 0.892898px solid #C8C8C8;
+    border-radius: 8.89871px;
+
+    /* Inside auto layout */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+
+}
+
+.inner__box {
+    /* Frame 9 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 7.79px;
+
+    width: 215.79px;
+    height: 92.27px;
+}
+
+.layout {
+    /* Frame 6 */
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 84px;
+
+
+    width: 212.92px;
+    height: 26.7px;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* Group */
+
+    width: 29.92px;
+    height: 26.7px;
+}
+
+.header button {
+    /* Frame 17 */
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 20px;
+    gap: 10px;
+
+    width: 99px;
+    height: 24px;
+
+    background: #FFFFFF;
+    border: 1px solid #C8C8C8;
+    border-radius: 5px;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+button:hover {
+    cursor: pointer !important;
+}
+
+button {
+    /* Connect */
+
+    width: 45px;
+    height: 14px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+}
+
+#connected{
+    background-color: lightgreen;
+    color: darkgreen;
+}
+
+
+.title {
+    /* Google Drive */
+
+    width: 104px;
+    height: 20px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17.7974px;
+    line-height: 20px;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.inner__box p {
+    /* Access all of your documents and information. */
+
+    width: 215.79px;
+    height: 30px;
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.3481px;
+    line-height: 15px;
+
+    color: #000000;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+

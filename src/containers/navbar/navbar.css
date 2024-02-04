@@ -1,0 +1,84 @@
+.hive__navbar {
+    /* Integrations nav bar */
+
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 1512px;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: rgba(255, 255, 255, 0.5);
+    border-bottom: 1px solid #EEEEEE;
+    backdrop-filter: blur(10px);
+}
+
+.hive__logo {
+    /* Logo */
+
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    left: 72px;
+    top: 35px;
+
+
+    /* hive */
+
+    position: absolute;
+    width: 65px;
+    height: 30px;
+    left: 72px;
+    top: 35px;
+
+
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 30px;
+    /* identical to box height, or 94% */
+    text-transform: lowercase;
+
+
+    /* hive purple */
+    color: #9730FF;
+
+}
+
+.mask__group {
+    /* Mask group */
+
+    position: absolute;
+    left: 92.06%;
+    right: 4.76%;
+    top: 26%;
+    bottom: 26%;
+    
+}
+
+
+#pfp {
+    border-radius: 50%;
+}
+
+.pfp:hover {
+    cursor:pointer;
+}
+
+.vector {
+    /* Vector */
+
+    position: absolute;
+    visibility: hidden;
+    left: 87.57%;
+    right: 11.11%;
+    top: 40%;
+    bottom: 40%;
+
+    /* hive purple */
+    border: 1.5px solid #9730FF;
+    border-radius: 2px;
+}
+
